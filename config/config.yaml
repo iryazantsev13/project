@@ -1,0 +1,22 @@
+log:
+  level: "debug"
+  view: "text"
+
+database:
+  host: "localhost"
+  name: "db_name"
+  user: "username"
+  pass: "password"
+  port: 3307 # необязательный параметр
+
+sevice_settings:
+  debug_mode: false
+  week_days: 
+    - 0
+    - 3
+    - 2
+    - 1
+  package_size: 100000
+
+service:
+  workers_count: 2
